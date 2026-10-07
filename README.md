@@ -1,6 +1,7 @@
 # Simi's Sweet 16
 
-A responsive React, TypeScript, and Vite birthday experience for Simi.
+A responsive React, TypeScript, and Vite birthday experience for Simi, whose
+nickname is Kateliana.
 
 ## Run locally
 

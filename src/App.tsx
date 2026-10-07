@@ -336,7 +336,10 @@ function App() {
               <motion.div initial={{ opacity: 0, y: 30 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.75, duration: 0.9 }} className="mt-6 font-display text-5xl md:text-8xl tracking-[0.35rem]">
                 SIMI
               </motion.div>
-              <motion.div initial={{ opacity: 0, y: 30 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 1.25, duration: 0.9 }} className="mt-3 font-sans text-xl md:text-4xl tracking-[0.8rem] text-rose-100">
+              <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 1.05, duration: 0.9 }} className="mt-1 font-script text-3xl tracking-normal text-pink-200 md:text-5xl">
+                Kateliana
+              </motion.div>
+              <motion.div initial={{ opacity: 0, y: 30 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 1.4, duration: 0.9 }} className="mt-3 font-sans text-xl md:text-4xl tracking-[0.8rem] text-rose-100">
                 SWEET 16
               </motion.div>
             </motion.div>
@@ -402,6 +405,7 @@ function App() {
               <h1 className="font-display text-6xl leading-none tracking-[0.35rem] text-white md:text-8xl lg:text-[9rem]">
                 SIMI
               </h1>
+              <p className="mt-1 font-script text-4xl text-pink-200 md:text-5xl">Kateliana</p>
               <div className="mt-3 flex items-center justify-center gap-4 text-sm uppercase tracking-[0.7rem] text-pink-100/80 lg:justify-start">
                 <span>Sweet 16</span>
                 <span className="h-px w-10 bg-pink-200/70" />
@@ -416,7 +420,7 @@ function App() {
                   onClick={() => scrollToSection('era')}
                   className="group rounded-full border border-pink-200/30 bg-gradient-to-r from-pink-200 to-violet-200 px-7 py-3 text-sm font-medium uppercase tracking-[0.25rem] text-[#120d18] shadow-glow transition hover:scale-[1.02]"
                 >
-                  Enter Simi's era <span className="inline-block transition group-hover:translate-x-1">✨</span>
+                  Enter Kateliana's era <span className="inline-block transition group-hover:translate-x-1">✨</span>
                 </button>
                 <button onClick={() => scrollToSection('music')} className="inline-flex items-center gap-2 rounded-full border border-white/15 bg-white/5 px-5 py-3 text-sm uppercase tracking-[0.24rem] text-white/80 backdrop-blur-md transition hover:border-pink-200/40 hover:text-pink-100">
                   <Music2 size={16} /> Feel the vibe
@@ -563,7 +567,7 @@ function App() {
                 <div className="mb-5 flex items-center justify-between">
                   <div>
                     <p className="text-[0.62rem] uppercase tracking-[0.3rem] text-pink-200/80">Playlist</p>
-                    <h3 className="mt-2 font-display text-4xl text-white">Simi FM</h3>
+                    <h3 className="mt-2 font-display text-4xl text-white">Kateliana FM</h3>
                   </div>
                   <button
                     onClick={() => setIsSoundOn((value) => !value)}
@@ -822,7 +826,7 @@ function App() {
             <div className="grid gap-6 md:grid-cols-[0.95fr_1.05fr]">
               <div className="rounded-[2rem] border border-white/10 bg-white/5 p-5">
                 <div className="mb-4 flex items-center justify-between text-[0.62rem] uppercase tracking-[0.24rem] text-white/60">
-                  <span>SIMI FM</span>
+                  <span>KATELIANA FM</span>
                   <span>on air</span>
                 </div>
                 <div className="rounded-[1.4rem] border border-pink-200/20 bg-[#1b1325] p-5">
@@ -875,7 +879,7 @@ function App() {
         <footer className="relative px-5 pb-16 pt-8 md:px-8">
           <div className="mx-auto max-w-5xl text-center">
             <p className="text-[0.62rem] uppercase tracking-[0.5rem] text-pink-200/80">And that's a wrap on era 16.</p>
-            <h2 className="mt-4 font-display text-5xl text-white md:text-7xl">Happy Birthday, Simi ❤️</h2>
+            <h2 className="mt-4 font-display text-5xl text-white md:text-7xl">Happy Birthday, Simi — Kateliana ❤️</h2>
             <p className="mt-4 text-lg uppercase tracking-[0.42rem] text-white/75">07.10.2026</p>
             <p className="mt-2 text-sm uppercase tracking-[0.3rem] text-white/60">Your next chapter starts now.</p>
             <button
