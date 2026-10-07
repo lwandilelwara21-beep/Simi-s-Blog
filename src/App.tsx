@@ -52,12 +52,12 @@ type EraCard = {
 };
 
 const simiImages = [
-  '/assets/simi/1000045355.jpg',
-  '/assets/simi/WhatsApp Image 2026-10-07 at 12.02.31 PM.jpeg',
-  '/assets/simi/WhatsApp Image 2026-10-07 at 12.04.11 PM.jpeg',
-  '/assets/simi/WhatsApp Image 2026-10-07 at 12.04.57 PM.jpeg',
-  '/assets/simi/WhatsApp Image 2026-10-07 at 12.06.13 PM.jpeg',
-];
+  '1000045355.jpg',
+  'WhatsApp Image 2026-10-07 at 12.02.31 PM.jpeg',
+  'WhatsApp Image 2026-10-07 at 12.04.11 PM.jpeg',
+  'WhatsApp Image 2026-10-07 at 12.04.57 PM.jpeg',
+  'WhatsApp Image 2026-10-07 at 12.06.13 PM.jpeg',
+].map((image) => `${import.meta.env.BASE_URL}assets/simi/${image}`);
 
 const arianaPhotos: ArianaPhoto[] = [
   {

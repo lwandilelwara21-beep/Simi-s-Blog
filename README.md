@@ -13,6 +13,13 @@ npm run dev
 Create a production build with `npm run build`. Vite writes the deployable site
 to `dist/`; preview it locally with `npm run preview`.
 
+## GitHub Pages
+
+The repository includes a GitHub Actions workflow that builds and deploys the
+site to GitHub Pages. In the repository settings, set **Pages → Build and
+deployment → Source** to **GitHub Actions**. Pushes to `main` will publish the
+site at `https://lwandilelwara21-beep.github.io/Simi-s-Blog/`.
+
 ## Deploy with Vercel
 
 Import this repository into Vercel. Vercel detects Vite automatically; use:
