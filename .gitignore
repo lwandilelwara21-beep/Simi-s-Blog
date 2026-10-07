@@ -1,0 +1,14 @@
+node_modules/
+dist/
+*.tsbuildinfo
+/vite.config.js
+/vite.config.d.ts
+/*.jpg
+/*.jpeg
+
+.env
+.env.*
+!.env.example
+
+.vercel/
+.netlify/
